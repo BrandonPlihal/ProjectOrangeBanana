@@ -124,7 +124,6 @@ def mine():
 def new_transaction():
     if request.method == 'POST':
         data = request.get_json()
-        print(data)
         # Check that the required fields are in the POST'ed data
         required = ['sender', 'recipient', 'amount']
         if not all(k in data for k in required):
