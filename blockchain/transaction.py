@@ -18,6 +18,6 @@ class Transaction:
         self.task = task
         self.size = self._get_size()
 
-    def _get_size()
+    def _get_size(self):
+        return sys.getsizeof(self.assigned_to) + sys.getsizeof(self.assigned_from) + sys.getsizeof(self.subject) + sys.getsizeof(self.task)
 
-        return sys.getsizeof(sef.assigned_to) + sys.getsizeof(self.assigned_from) + sys.getsizeof(self.subject) + sys.getsizeof(self.task)
