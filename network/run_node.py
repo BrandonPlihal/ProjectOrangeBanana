@@ -12,3 +12,5 @@ def assign_task():
 @node.route('/read/blockchain', methods=['GET'])
 def read_blockchain():
     return jsonify(str(blockchain))
+
+node.run(debug=True, port=7000)
