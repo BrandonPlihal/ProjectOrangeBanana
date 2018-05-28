@@ -1,3 +1,4 @@
-{'sender': "d4ee26eee15148ee92c6cd394edd974e",
- 'recipient': "d4ee26eee15148ee92c6cd394edd4326d",
- 'amount': 100}
+{'assigned_from': 'Brandon',
+  'assigned_to': 'Xavier',
+  'subject': 'Test message',
+  'message' : 'This is a test message'}
